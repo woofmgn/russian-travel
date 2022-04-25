@@ -1,20 +1,13 @@
 .lead__title {
   padding: 0;
-  margin: 0;
-  display: flex;
   margin: 0 13.41%;
+  display: flex;
   max-width: calc(100% - 264px);
   font-size: 96px;
   line-height: 1.04;
   font-weight: 900;
   color: #FFFFFF;
   text-align: center;
-}
-
-@media screen and (max-width: 1050px) {
-  .lead__title {
-    margin: 0 13.41%;;
-  }
 }
 
 @media screen and (max-width: 800px) {
