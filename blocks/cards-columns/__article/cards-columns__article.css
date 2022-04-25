@@ -1,0 +1,15 @@
+.cards-columns__article {
+  max-width: 484px;
+  min-width: 352px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 400px) {
+  .cards-columns__article {
+    max-width: calc(100% - (16px + 16px));
+    min-width: 288px;
+    margin: auto 16px;
+  }
+}

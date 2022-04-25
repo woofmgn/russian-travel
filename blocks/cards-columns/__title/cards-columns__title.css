@@ -1,0 +1,36 @@
+.cards-columns__title {
+  margin: 0 0 48px 0;
+  padding: 0;
+  display: flex;
+  flex-basis: 460px;
+  min-width: 460px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1050px) {
+  .cards-columns__title {
+    flex-basis: 440px;
+    min-width: 440px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-columns__title {
+    flex-basis: 340px;
+    min-width: 340px;
+    font-size: 46px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cards-columns__title {
+    flex-basis: 288px;
+    min-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 auto;
+}

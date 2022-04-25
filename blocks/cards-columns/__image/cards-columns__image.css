@@ -1,0 +1,32 @@
+.cards-columns__image {
+  max-width: 460px;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1050px) {
+  .cards-columns__image {
+    max-width: 440px;
+    object-position: top;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-columns__image {
+    max-width: 340px;
+    object-position: top;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cards-columns__image {
+    max-width: 540px;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cards-columns__image {
+    max-width: 320px;
+  }
+}
