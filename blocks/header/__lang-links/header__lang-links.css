@@ -6,6 +6,6 @@ align-items: flex-end;
 
 @media screen and (max-width: 380px){
   .header__lang-links {
-    align-items: center;
+    align-items: end;
   }
 }
