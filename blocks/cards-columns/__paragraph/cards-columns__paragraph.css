@@ -15,10 +15,16 @@
   }
 }
 
+@media screen and (max-width: 766px) {
+  .cards-columns__paragraph {
+    min-width: 288px;
+    max-width: 540px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .cards-columns__paragraph {
     max-width: calc(100% - (16px + 16px));
     min-width: 288px;
-
   }
 }

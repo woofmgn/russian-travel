@@ -1,6 +1,6 @@
 .cards-columns__image {
   max-width: 460px;
-  width: 100%;
+  max-width: 100%;
   object-fit: contain;
 }
 
@@ -18,9 +18,10 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 766px) {
   .cards-columns__image {
-    max-width: 540px;
+    max-width: 520px;
+    max-width: 100%;
     object-position: center;
   }
 }

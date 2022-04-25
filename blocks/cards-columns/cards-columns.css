@@ -17,9 +17,10 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 766px) {
   .cards-columns {
     flex-wrap: wrap;
     column-gap: 32px;
+    margin: 0 auto;
   }
 }

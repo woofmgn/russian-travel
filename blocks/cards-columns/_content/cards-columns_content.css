@@ -1,6 +1,6 @@
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 766px) {
   .cards-columns_content {
-    /*max-width: calc(100% - (24px + 24px));*/
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
