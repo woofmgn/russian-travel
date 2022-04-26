@@ -1,6 +1,13 @@
+@media screen and (max-width: 800px) {
+  .cards-columns_content {
+    column-gap: 28px;
+  }
+}
+
 @media screen and (max-width: 766px) {
   .cards-columns_content {
     flex-wrap: wrap;
-    justify-content: center;
   }
 }
+
+

@@ -1,5 +1,4 @@
 .cards-columns__image {
-  max-width: 460px;
   max-width: 100%;
   object-fit: contain;
 }
@@ -20,9 +19,7 @@
 
 @media screen and (max-width: 766px) {
   .cards-columns__image {
-    max-width: 520px;
     max-width: 100%;
-    object-position: center;
   }
 }
 
