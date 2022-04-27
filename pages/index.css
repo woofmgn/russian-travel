@@ -28,6 +28,7 @@
 @import url(../blocks/cards-columns/cards-columns.css);
 @import url(../blocks/cards-columns/_type/cards-columns_type_content.css);
 @import url(../blocks/cards-columns/__title/cards-columns__title.css);
+@import url(../blocks/cards-columns/__title/_row-wrap/cards-columns__title_row-wrap.css);
 @import url(../blocks/cards-columns/__website/cards-columns__website.css);
 @import url(../blocks/cards-columns/__links/cards-columns__links.css);
 @import url(../blocks/cards-columns/__link/cards-columns__link.css);
