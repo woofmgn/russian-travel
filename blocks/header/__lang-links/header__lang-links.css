@@ -1,6 +1,6 @@
 .header__lang-links {
-display: flex;
-align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 380px){

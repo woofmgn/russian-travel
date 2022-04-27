@@ -21,7 +21,7 @@
   .cards-columns__title {
     flex-basis: 340px;
     min-width: 340px;
-    font-size: 46px;
+    font-size: 42px;
     line-height: 1.1;
   }
 }
