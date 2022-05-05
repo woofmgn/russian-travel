@@ -1,0 +1,11 @@
+.content-title {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  max-width: 800px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 78.42px;
+  color: #FFFFFF;
+  text-align: center;
+}

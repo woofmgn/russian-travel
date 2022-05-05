@@ -1,0 +1,15 @@
+.video__item {
+  margin: 0 auto;
+  max-width: 583px;
+  /*height: 100%;*/
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../images/video-kamchatka.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.video__item:last-child {
+  background-image: url(../../../images/video-obvservatory.png);
+}

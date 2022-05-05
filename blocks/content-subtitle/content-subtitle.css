@@ -1,0 +1,11 @@
+.content-subtitle {
+  padding: 0;
+  margin: 48px auto 0 auto;
+  display: flex;
+  max-width: 640px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34.85px;
+  color: #FFFFFF;
+  text-align: center;
+}

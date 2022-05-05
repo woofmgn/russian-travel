@@ -1,0 +1,7 @@
+.video__icon-play {
+  /*margin: 30px 512px 0 30px;*/ /* поменять на проценты правый маржин */
+  margin: 30px auto 0 30px;
+  /*margin: auto 87.82% 0 30px;*/
+  max-width: 41px;
+  height: 100%;
+}

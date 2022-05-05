@@ -1,0 +1,6 @@
+.video__container {
+  margin: 72px auto 0 auto;
+  max-width: 1184px;
+  display: flex;
+  column-gap: 16px;
+}
