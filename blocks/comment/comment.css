@@ -1,0 +1,6 @@
+.comment {
+  max-width: 382px;
+  display: flex;
+  flex-direction: column;
+}
+

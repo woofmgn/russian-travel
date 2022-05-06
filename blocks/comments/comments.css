@@ -1,23 +1,22 @@
-.video {
+.comments {
   max-width: calc(1280px - (3.75% + 3.75%));
   margin: 102px auto 0 auto;
 }
 
 @media screen and (max-width: 1050px) {
-  .video {
+  .comments {
     max-width: calc(100% - (4.68% + 4.68%));
   }
 }
 
 @media screen and (max-width: 800px) {
-  .video {
+  .comments {
     max-width: calc(100% - (3.125% + 3.125%));
-    margin: 96px auto 0 auto;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .video {
+  .comments {
     max-width: calc(100% - (5% + 5%));
     margin: 64px auto 0 auto;
   }

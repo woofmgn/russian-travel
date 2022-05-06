@@ -1,0 +1,10 @@
+.comment__quotes {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 810px) {
+  .comment__quotes {
+    display: grid;
+  }
+}
