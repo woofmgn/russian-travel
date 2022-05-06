@@ -1,6 +1,20 @@
 .video__container {
   margin: 72px auto 0 auto;
-  max-width: 1184px;
-  display: flex;
-  column-gap: 16px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  gap: 8px 16px;
+}
+
+@media screen and (max-width: 810px) {
+  .video__container {
+    margin: 56px auto 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .video__container {
+    margin: 24px auto 0 auto;
+  }
 }

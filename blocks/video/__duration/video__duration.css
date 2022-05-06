@@ -8,4 +8,23 @@
   line-height: 13px;
   letter-spacing: 0.3em;
   color: #FFFFFF;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1050px) {
+  .video__duration {
+    margin: 54px auto 0 30px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .video__duration {
+    margin: 17px auto 0 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .video__duration {
+    margin: 23px auto 0 16px;
+  }
 }
